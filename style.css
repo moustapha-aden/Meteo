@@ -1,0 +1,44 @@
+body {
+  box-sizing: border-box;
+  background: #e4e8eb;
+  background: -webkit-linear-gradient(to right, #e1e7e9, #03b8e6);
+  background: linear-gradient(to right, #e1e7e9, #03b8e6);
+}
+section {
+  margin: auto;
+  margin-top: 160px;
+  width: 0;
+  font-size: 1.9em;
+}
+
+h1 {
+  padding: 10px;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+.nom {
+  padding: 10px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.degre {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 1.2em;
+}
+#degre {
+  font-size: 2em;
+}
+#yes {
+  font-size: 3em;
+}
+
+button {
+  border: 1px solid rgb(113, 217, 231);
+  height: 50px;
+  width: 200px;
+  font-size: 0.8em;
+  background-color: rgb(178, 224, 251, 0.3);
+  color: white;
+  cursor: pointer;
+}
