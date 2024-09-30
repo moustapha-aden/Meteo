@@ -30,10 +30,6 @@ if ("geolocation" in navigator) {
     error,
     options
   );
-
-  function error() {
-    alert("vous avez refuse la géolocalisation");
-  }
 } else {
   ville = "DJIBOUTI";
   recevoir(ville);
@@ -42,7 +38,10 @@ $("#button").click(() => {
   ville = prompt("veuillez entre une ville");
   recevoir(ville);
 });
-
+function error() {
+  ville = "djibouti";
+  recevoir(ville);
+}
 function recevoir(ville) {
   const Url =
     "https://api.openweathermap.org/data/2.5/weather?q=" +
